@@ -1,0 +1,8 @@
+#!/bin/sh 
+
+export JOIN_WINDOW_MSEC=604800000
+
+JAR=dependencies.jar
+
+exec 2>&1
+exec setuidgid ec2-user java -cp $JAR flags

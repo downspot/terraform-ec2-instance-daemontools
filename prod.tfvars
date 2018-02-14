@@ -1,0 +1,8 @@
+aws_region = "us-east-1"
+tag_name = "example-contextual-bandit-prod"
+tag_env = "prod"
+instance_type = "t2.large"
+subnet_id = "subnet-2ef24004"
+vpc_security_group_ids = "sg-33388d44"
+key_name = "EXAMPLE"
+iam_instance_profile = "EXAMPLE_EC2_ROLE"

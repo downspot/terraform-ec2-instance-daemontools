@@ -1,0 +1,10 @@
+#!/bin/sh
+
+export VW_HOST=10.10.10.10
+export VW_PORT=26542
+export VW_RECO_COST=1.0
+
+JAR=dependencies.jar
+
+exec 2>&1
+exec setuidgid ec2-user java -cp $JAR flags

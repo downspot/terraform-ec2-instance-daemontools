@@ -1,0 +1,4 @@
+#!/bin/sh
+
+chown ec2-user. ./main
+exec setuidgid ec2-user multilog s10485760 -n5 t "./main"

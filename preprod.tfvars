@@ -1,0 +1,8 @@
+aws_region = "us-east-1"
+tag_name = "example-contextual-bandit-preprod"
+tag_env = "preprod"
+instance_type = "t2.large"
+subnet_id = "subnet-8f04bed7"
+vpc_security_group_ids = "sg-944cf9e3"
+key_name = "EXAMPLE"
+iam_instance_profile = "EXAMPLE_EC2_ROLE"
